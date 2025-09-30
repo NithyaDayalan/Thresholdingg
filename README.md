@@ -7,15 +7,15 @@ To segment the image using global thresholding, adaptive thresholding and Otsu's
 2. OpenCV
 
 ### Algorithm :
-#### Step1:
+#### Step1 :
 Load the image and convert it to grayscale.
-#### Step2:
+#### Step2 :
 Apply a single, fixed threshold value across the entire image.
-#### Step3:
+#### Step3 :
 Calculate and apply a separate, local threshold for different small regions.
-#### Step4:
+#### Step4 :
 Calculate and apply a separate, local threshold for different small regions.
-#### Step5:
+#### Step5 :
 Show the original image and the three segmented (binary) results for comparison.
 
 ### Program :
@@ -70,10 +70,10 @@ plt.show()
 #### Global Thresholding
 <img width="443" height="291" alt="image" src="https://github.com/user-attachments/assets/8179501c-2151-4fca-b58b-56cf038b9108" />
 
-### Adaptive Thresholding
+#### Adaptive Thresholding
 <img width="397" height="293" alt="image" src="https://github.com/user-attachments/assets/19414162-3219-44aa-90c7-55ca3af11c4d" />
 
-### Optimum Global Thesholding using Otsu's Method
+#### Optimum Global Thesholding using Otsu's Method
 <img width="389" height="291" alt="image" src="https://github.com/user-attachments/assets/26d38a85-d064-434d-bb07-77ce363184c5" />
 
 ### Result :
